@@ -14,7 +14,7 @@ nav{display:flex;gap:20px;font-size:15px;font-weight:650;color:#334155}nav a:hov
 .btn{border:0;border-radius:999px;padding:12px 17px;font-weight:750;display:inline-flex;align-items:center;justify-content:center;gap:8px;cursor:pointer;transition:.2s;white-space:nowrap}.btn:hover{transform:translateY(-2px)}.blue{background:var(--blue);color:#fff;box-shadow:0 12px 26px rgba(37,99,235,.2)}.green{background:var(--green);color:#fff;box-shadow:0 12px 26px rgba(22,163,74,.18)}.light{background:#fff;border:1px solid var(--line)}
 .hero{padding:54px 0 50px;background:radial-gradient(circle at 12% 15%,rgba(37,99,235,.15),transparent 30%),radial-gradient(circle at 87% 10%,rgba(22,163,74,.12),transparent 28%),linear-gradient(135deg,#f8fafc,#eff6ff)}.hero-grid{display:grid;grid-template-columns:.95fr 1.05fr;gap:44px;align-items:center}.pill{display:inline-flex;gap:8px;background:rgba(37,99,235,.08);border:1px solid rgba(37,99,235,.18);color:#1e40af;border-radius:999px;padding:8px 13px;font-size:14px;font-weight:750;margin-bottom:17px}
 h1{font-size:clamp(36px,4.7vw,58px);line-height:1.05;letter-spacing:-.035em;font-weight:690;margin-bottom:17px}h2{font-size:clamp(30px,4.2vw,46px);line-height:1.08;letter-spacing:-.035em;font-weight:700}h3{font-weight:700;letter-spacing:-.025em}.lead{font-size:17px;color:#475569;max-width:600px;margin-bottom:16px}.price-note{background:#fff;border:1px solid #dbeafe;border-radius:19px;padding:13px 15px;color:#334155;margin:0 0 22px;box-shadow:0 10px 24px rgba(15,23,42,.04);max-width:600px}.price-note strong{color:#1d4ed8}.hero-actions{display:flex;gap:12px;flex-wrap:wrap;margin-bottom:20px}.trust{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;max-width:600px}.trust div{background:rgba(255,255,255,.82);border:1px solid var(--line);border-radius:17px;padding:13px}.trust strong{display:block;font-size:17px}.trust span{font-size:13px;color:var(--muted)}
-.phone{background:#f0fdf4;border:1px solid #bbf7d0;border-radius:34px;box-shadow:var(--shadow);overflow:hidden;padding:14px;width:100%;max-width:640px;margin-left:auto}.phone-inner{background:#efeae2;border-radius:26px;overflow:hidden;min-height:auto;position:relative}.wa-head{height:62px;background:#075e54;color:white;display:flex;align-items:center;gap:10px;padding:0 14px}.avatar{width:38px;height:38px;border-radius:50%;background:#22c55e;display:grid;place-items:center;font-weight:800}.wa-head small{display:block;color:#d1fae5;font-size:12px}.wa-screen{height:430px;position:relative;overflow:hidden;background:#efeae2}.chat{position:absolute;inset:0;padding:13px;display:flex;flex-direction:column;gap:7px;overflow:hidden;transition:.45s ease}.phone-inner.show-gallery .chat{opacity:0;transform:translateY(-12px);pointer-events:none}.bubble{max-width:80%;padding:8px 10px;border-radius:14px;font-size:13.5px;box-shadow:0 1px 1px rgba(0,0,0,.06);animation:pop .28s ease}.user{align-self:flex-start;background:#fff;border-bottom-left-radius:4px}.us{align-self:flex-end;background:#d9fdd3;border-bottom-right-radius:4px}.system-msg{align-self:center;background:rgba(255,255,255,.72);color:#64748b;border-radius:999px;padding:6px 10px;font-size:12px;font-weight:650}@keyframes pop{from{opacity:0;transform:translateY(8px) scale(.98)}to{opacity:1;transform:none}}.process-gallery{position:absolute;inset:0;opacity:0;pointer-events:none;transition:.5s ease;background:#0f172a}.phone-inner.show-gallery .process-gallery{opacity:1;pointer-events:auto}.process-slide{position:absolute;inset:0;opacity:0;transition:.5s ease;display:grid;place-items:end start;overflow:hidden}.process-slide.active{opacity:1}.process-slide img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center;display:block}.process-slide::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(15,23,42,.04),rgba(15,23,42,.72))}.process-fallback{position:absolute;inset:0;display:grid;place-items:center;font-size:62px;background:linear-gradient(135deg,#dbeafe,#f8fafc)}.process-caption{position:relative;z-index:2;color:white;padding:20px;width:100%}.process-caption b{display:block;font-size:21px;line-height:1.25;text-shadow:0 2px 10px rgba(0,0,0,.35)}.process-caption span{display:block;margin-top:4px;color:rgba(255,255,255,.86);font-size:13px;font-weight:600}.process-dots{position:absolute;left:14px;right:14px;top:12px;z-index:4;display:flex;gap:5px}.process-dot{height:4px;flex:1;border-radius:999px;background:rgba(255,255,255,.38);overflow:hidden}.process-dot.active{background:white}
+.phone{background:#f0fdf4;border:1px solid #bbf7d0;border-radius:34px;box-shadow:var(--shadow);overflow:hidden;padding:14px;width:100%;max-width:640px;margin-left:auto}.phone-inner{background:#efeae2;border-radius:26px;overflow:hidden;min-height:auto;position:relative}.wa-head{height:62px;background:#075e54;color:white;display:flex;align-items:center;gap:10px;padding:0 14px}.avatar{width:38px;height:38px;border-radius:50%;background:#22c55e;display:grid;place-items:center;font-weight:800}.wa-head small{display:block;color:#d1fae5;font-size:12px}.wa-screen{height:430px;position:relative;overflow:hidden;background:#efeae2}.chat{position:absolute;inset:0;padding:13px;display:flex;flex-direction:column;gap:7px;overflow-y:auto;scrollbar-width:none;transition:.45s ease}.phone-inner.show-gallery .chat{opacity:0;transform:translateY(-12px);pointer-events:none}.chat::-webkit-scrollbar{display:none}.bubble{max-width:80%;padding:8px 10px;border-radius:14px;font-size:13.5px;box-shadow:0 1px 1px rgba(0,0,0,.06);animation:pop .28s ease}.user{align-self:flex-start;background:#fff;border-bottom-left-radius:4px}.us{align-self:flex-end;background:#d9fdd3;border-bottom-right-radius:4px}.system-msg{align-self:center;background:rgba(255,255,255,.72);color:#64748b;border-radius:999px;padding:6px 10px;font-size:12px;font-weight:650}@keyframes pop{from{opacity:0;transform:translateY(8px) scale(.98)}to{opacity:1;transform:none}}.process-gallery{position:absolute;inset:0;opacity:0;pointer-events:none;transition:.5s ease;background:#0f172a}.phone-inner.show-gallery .process-gallery{opacity:1;pointer-events:auto}.process-slide{position:absolute;inset:0;opacity:0;transition:.5s ease;display:grid;place-items:end start;overflow:hidden}.process-slide.active{opacity:1}.process-slide img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center;display:block}.process-slide::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(15,23,42,.04),rgba(15,23,42,.72))}.process-fallback{position:absolute;inset:0;display:grid;place-items:center;font-size:62px;background:linear-gradient(135deg,#dbeafe,#f8fafc)}.process-caption{position:relative;z-index:2;color:white;padding:20px;width:100%}.process-caption b{display:block;font-size:21px;line-height:1.25;text-shadow:0 2px 10px rgba(0,0,0,.35)}.process-caption span{display:block;margin-top:4px;color:rgba(255,255,255,.86);font-size:13px;font-weight:600}.process-dots{position:absolute;left:14px;right:14px;top:12px;z-index:4;display:flex;gap:5px}.process-dot{height:4px;flex:1;border-radius:999px;background:rgba(255,255,255,.38);overflow:hidden}.process-dot.active{background:white}
 section{padding:64px 0}.head{display:flex;justify-content:space-between;gap:24px;align-items:end;margin-bottom:28px}.head p{max-width:500px;color:var(--muted)}.eyebrow{font-size:13px;color:var(--blue);font-weight:800;text-transform:uppercase;letter-spacing:.11em;margin-bottom:7px}
 .services{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.service{background:#fff;border:1px solid var(--line);border-radius:var(--r);overflow:hidden;box-shadow:0 10px 28px rgba(15,23,42,.05);transition:.2s}.service:hover{transform:translateY(-3px);box-shadow:var(--shadow)}.thumb{aspect-ratio:16/9;height:auto;background:linear-gradient(135deg,#dbeafe,#f8fafc);display:grid;place-items:center;font-size:52px;position:relative;overflow:hidden}.service:nth-child(2n) .thumb{background:linear-gradient(135deg,#dcfce7,#f8fafc)}.service:nth-child(3n) .thumb{background:linear-gradient(135deg,#ffedd5,#f8fafc)}.thumb small{position:absolute;right:10px;bottom:9px;background:rgba(255,255,255,.85);border-radius:999px;padding:4px 8px;font-size:12px;color:#475569;font-weight:700}.thumb img{width:100%;height:100%;object-fit:cover;display:block}.thumb-fallback{position:absolute;inset:0;display:grid;place-items:center;font-size:52px;z-index:0}.thumb img:not([style*='display: none']) + .thumb-fallback{display:none}.service-body{padding:19px}.service p{color:var(--muted);font-size:15px;margin:8px 0 14px}.link{color:var(--blue);font-weight:750;font-size:14px}
 .steps{background:#fff}.steps-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}.step{background:var(--bg);border:1px solid var(--line);border-radius:20px;padding:20px}.num{width:38px;height:38px;border-radius:13px;background:var(--ink);color:white;display:grid;place-items:center;font-weight:800;margin-bottom:12px}.step p{color:var(--muted);font-size:14px;margin-top:6px}
@@ -37,7 +37,7 @@ footer{background:var(--dark);color:rgba(255,255,255,.72);padding:34px 0 90px}.f
 @keyframes waEnter{from{opacity:0;transform:translateY(18px) scale(.96)}to{opacity:1;transform:translateY(0) scale(1)}}
 @keyframes waNudge{0%,100%{transform:translateY(0)}45%{transform:translateY(-6px)}}
 @media(max-width:960px){nav,.actions{display:none}.menu{display:block}nav.open{display:grid;position:absolute;left:16px;right:16px;top:72px;background:white;border:1px solid var(--line);border-radius:20px;padding:16px;box-shadow:var(--shadow)}.hero-grid,.request-grid,.faq-grid{grid-template-columns:1fr}.phone{margin:0;max-width:100%}.services{grid-template-columns:repeat(2,1fr)}.steps-grid,.districts{grid-template-columns:repeat(2,1fr)}}
-@media(max-width:640px){.top .container{text-align:center;justify-content:center}.hero,section{padding:46px 0}.hero-actions,.form-actions,.modal-actions{flex-direction:column;align-items:stretch}.btn{width:100%}.trust,.services,.steps-grid,.districts,.form-grid{grid-template-columns:1fr}.phone{border-radius:26px;padding:10px}.phone-inner{min-height:auto;border-radius:20px}.wa-screen{height:360px}.head{display:block}.head p{margin-top:10px}.mobile-sticky{display:none}.floating-wa{right:16px;bottom:16px;min-width:220px;height:60px;padding-right:15px}.wa-text strong{font-size:13px}.wa-text small{font-size:11px}.floating-wa.compact{min-width:62px;width:62px;height:62px}.floating-wa.compact .wa-icon{width:62px;height:62px}.floating-wa.compact .wa-icon svg{width:32px;height:32px}.toast{left:16px;right:16px;bottom:88px}}
+@media(max-width:640px){.top .container{text-align:center;justify-content:center}.hero,section{padding:46px 0}.hero-actions,.form-actions,.modal-actions{flex-direction:column;align-items:stretch}.btn{width:100%}.trust,.services,.steps-grid,.districts,.form-grid{grid-template-columns:1fr}.phone{border-radius:24px;padding:8px;max-width:100%}.phone-inner{min-height:auto;border-radius:20px}.wa-screen{height:460px}.head{display:block}.head p{margin-top:10px}.mobile-sticky{display:none}.bubble{font-size:13px;line-height:1.42;padding:7px 9px;max-width:86%}.system-msg{font-size:11.5px;padding:5px 9px}.floating-wa{right:16px;bottom:16px;min-width:220px;height:60px;padding-right:15px}.wa-text strong{font-size:13px}.wa-text small{font-size:11px}.floating-wa.compact{min-width:62px;width:62px;height:62px}.floating-wa.compact .wa-icon{width:62px;height:62px}.floating-wa.compact .wa-icon svg{width:32px;height:32px}.toast{left:16px;right:16px;bottom:88px}}
 </style>
 </head>
 <body>
@@ -57,7 +57,7 @@ footer{background:var(--dark);color:rgba(255,255,255,.72);padding:34px 0 90px}.f
     <p class="lead">Evden eve, parça eşya, şehirler arası, asansörlü, ofis veya özel eşya taşıma için bilgilerinizi paylaşın. Size dönüş yapılması ve sürecin netleşmesi için yardımcı olalım.</p>
     <div class="price-note"><strong>Fiyat konusunda destek:</strong> Güzergâh, eşya durumu ve tarihe göre bütçenize uygun seçeneklerin konuşulmasına yardımcı oluruz. Net fiyat görüşme sırasında belirlenir.</div>
     <div class="hero-actions"><button class="btn green openWhatsapp">WhatsApp’tan Talep Oluştur</button><a class="btn blue" href="#request">Formu Doldur</a></div>
-    <div class="trust"><div><strong>Hızlı dönüş</strong><span>WhatsApp ön görüşme</span></div><div><strong>Uygun çözüm</strong><span>İhtiyaca göre seçenek</span></div><div><strong>Sade süreç</strong><span>Az bilgiyle başlayın</span></div></div>
+    <div class="trust"><div><strong>Hızlı dönüş</strong><span>WhatsApp ön görüşme</span></div><div><strong>Uygun çözüm</strong><span>İhtiyaca göre seçenek</span></div><div><strong>Kolay süreç</strong><span>Sorunsuz ilerlemesi için yardımcı oluruz</span></div></div>
   </div>
   <div class="phone"><div class="phone-inner">
     <div class="wa-head"><div class="avatar">U</div><div><b>Uygun Nakliye İzmir</b><small>çevrimiçi</small></div></div>
@@ -67,8 +67,8 @@ footer{background:var(--dark);color:rgba(255,255,255,.72);padding:34px 0 90px}.f
       <div class="process-gallery" id="processGallery" aria-label="Taşıma süreci görsel slaytları">
         <!-- Görsel eklemek için src değerlerini kendi dosya yollarınızla değiştirin.
              Örnek dosya yapısı:
-             assets/kamyon-dolduruluyor.png, assets/kamyon-dolu.png, assets/kamyon-hareket.png,
-             assets/asansorlu-tasima.png, assets/son-koliler-yeni-ev.png -->
+             assets/kamyon-dolduruluyor.jpg, assets/kamyon-dolu.jpg, assets/kamyon-hareket.jpg,
+             assets/asansorlu-tasima.jpg, assets/son-koliler-yeni-ev.jpg -->
         <div class="process-dots" aria-hidden="true">
           <span class="process-dot active"></span>
           <span class="process-dot"></span>
@@ -141,6 +141,7 @@ footer{background:var(--dark);color:rgba(255,255,255,.72);padding:34px 0 90px}.f
     <button class="district" data-district="Karabağlar"><strong>Karabağlar</strong><span>Ev, iş yeri ve parça eşya</span></button>
     <button class="district" data-district="Çiğli"><strong>Çiğli</strong><span>Ev taşıma ve şehir içi talepler</span></button>
     <button class="district" data-district="Gaziemir"><strong>Gaziemir</strong><span>Şehirler arası ve iş yeri</span></button>
+    <button class="district" data-district="Diğer"><strong>Bunların dışında bir yerdeyim</strong><span>İzmir geneli, çevre ilçeler ve çevre iller</span></button>
   </div>
 </div></section>
 
@@ -171,7 +172,7 @@ footer{background:var(--dark);color:rgba(255,255,255,.72);padding:34px 0 90px}.f
 </div></section>
 </main>
 
-<footer><div class="container footer-grid"><div><strong>Uygun Nakliye İzmir</strong><p>İzmir hızlı nakliye talep ve destek hattı.</p></div><div class="footer-links"><a href="#services">Hizmetler</a><a href="#districts">İlçeler</a><a href="#request">Talep Oluştur</a><a href="#" class="openPolicy">Aydınlatma Metni</a></div></div></footer>
+<footer><div class="container footer-grid"><div><strong>Uygun Nakliye İzmir</strong><p>İzmir hızlı nakliye talep ve destek hattı.</p><p style="font-size:13px;margin-top:8px;color:rgba(255,255,255,.58)">Sitede kullanılan görseller temsilidir. Hizmet detayları, fiyat ve uygunluk talebinize göre görüşme sırasında netleşir.</p></div><div class="footer-links"><a href="#services">Hizmetler</a><a href="#districts">İlçeler</a><a href="#request">Talep Oluştur</a><a href="#" class="openPolicy">Aydınlatma Metni</a></div></div></footer>
 <button class="floating-wa openWhatsapp" aria-label="WhatsApp ile nakliye talebi oluştur">
   <span class="wa-icon" aria-hidden="true">
     <svg viewBox="0 0 64 64" role="img">
@@ -229,7 +230,7 @@ function startProcessGallery(){
     phoneInner.classList.remove("show-gallery");
     c=(c+1)%chats.length;
     runChat();
-  },14200);
+  },15000);
 }
 
 function runChat(){
@@ -240,14 +241,15 @@ function runChat(){
   function next(){
     const arr=chats[c];
     if(m>=arr.length){
-      setTimeout(startProcessGallery,1200);
+      setTimeout(startProcessGallery,2000);
       return;
     }
     const [who,text]=arr[m++], d=document.createElement("div");
     d.className="bubble "+who;
     d.textContent=text;
     chatBox.appendChild(d);
-    setTimeout(next,1750);
+    chatBox.scrollTop=chatBox.scrollHeight;
+    setTimeout(next,1900);
   }
   next();
 }
@@ -312,7 +314,8 @@ const districts={
   "Konak":{desc:"Konak merkezi konumu nedeniyle ofis, küçük ev ve parça eşya taşıma taleplerinde sık kullanılan bir bölgedir. Dar sokak, park ve kat bilgisi fiyatı etkileyebilir.",to:["Bornova","Buca","Karabağlar","Bayraklı","Karşıyaka"],samples:["“Konak’taki ofisten birkaç masa ve dolap taşınacak.”","“Dar sokak olduğu için araç yanaşma durumunu konuşmak istiyoruz.”"]},
   "Karabağlar":{desc:"Karabağlar ev taşıma, iş yeri eşyası ve parça eşya talepleri için değerlendirilebilir. Kat ve asansör bilgisi hızlı fiyat görüşmesi için faydalıdır.",to:["Buca","Konak","Gaziemir","Bornova"],samples:["“Karabağlar’dan Buca’ya ev eşyası taşınacak.”","“Az eşya için uygun bir taşıma arıyoruz.”"]},
   "Çiğli":{desc:"Çiğli çıkışlı veya varışlı taşımalarda Karşıyaka, Bayraklı ve Bornova güzergâhları sık tercih edilebilir. Eşya miktarı ve tarih bilgisini paylaşmanız yeterlidir.",to:["Karşıyaka","Bayraklı","Bornova","Menemen","Konak"],samples:["“Çiğli’den Karşıyaka’ya parça eşya taşınacak.”","“Tarih esnek, uygun fiyatlı taşıma arıyoruz.”"]},
-  "Gaziemir":{desc:"Gaziemir için şehir içi, şehirler arası, iş yeri ve özel eşya taşıma talepleri değerlendirilebilir. Güzergâh ve araç yanaşma bilgisi önemlidir.",to:["Buca","Karabağlar","Konak","Bornova","Menderes","Şehirler arası"],samples:["“Gaziemir’den şehir dışına birkaç parça eşya götürülecek.”","“İş yeri ekipmanı için taşıma desteği arıyoruz.”"]}
+  "Gaziemir":{desc:"Gaziemir için şehir içi, şehirler arası, iş yeri ve özel eşya taşıma talepleri değerlendirilebilir. Güzergâh ve araç yanaşma bilgisi önemlidir.",to:["Buca","Karabağlar","Konak","Bornova","Menderes","Şehirler arası"],samples:["“Gaziemir’den şehir dışına birkaç parça eşya götürülecek.”","“İş yeri ekipmanı için taşıma desteği arıyoruz.”"]},
+  "Diğer":{desc:"Bulunduğunuz ilçe listede yoksa yine de nakliye talebi oluşturabilirsiniz. İzmir geneli, çevre ilçeler, Manisa gibi yakın iller ve şehirler arası taşınma talepleri için güzergâhınızı kısaca paylaşmanız yeterlidir.",to:["Torbalı’dan Bornova’ya","Manisa’dan İzmir’e","İzmir’den şehir dışına"],samples:["“Torbalı’dan Bornova’ya taşınmak istiyoruz, uygun fiyatlı nakliye arıyoruz.”","“Manisa’dan İzmir’e birkaç parça eşya taşınacak.”","“İzmir’den şehir dışına taşınmak için destek almak istiyoruz.”"]}
 };
 
 const dModal=document.getElementById("districtModal");
@@ -320,11 +323,11 @@ let dName="",sampleTimer;
 document.querySelectorAll(".district").forEach(b=>b.onclick=()=>{
   dName=b.dataset.district;
   const d=districts[dName];
-  document.getElementById("districtTitle").textContent=`${dName} Nakliye Talebi`;
+  document.getElementById("districtTitle").textContent=dName==="Diğer" ? "Farklı Bölgeden Nakliye Talebi" : `${dName} Nakliye Talebi`;
   document.getElementById("districtDesc").textContent=d.desc;
-  document.getElementById("districtQuestion").textContent=`${dName}'dan nereye?`;
+  document.getElementById("districtQuestion").textContent=dName==="Diğer" ? "Nereden nereye taşınacaksınız?" : `${dName}'dan nereye?`;
   document.getElementById("districtTo").value="";
-  document.getElementById("districtTo").placeholder=`Örnek: ${d.to.slice(0,3).join(", ")} veya şehirler arası`;
+  document.getElementById("districtTo").placeholder=dName==="Diğer" ? `Örnek: ${d.to.slice(0,3).join(", ")}` : `Örnek: ${d.to.slice(0,3).join(", ")} veya şehirler arası`;
   document.getElementById("districtNote").value="";
   let i=0;
   document.getElementById("sampleSlider").textContent=d.samples[0];
@@ -334,12 +337,18 @@ document.querySelectorAll(".district").forEach(b=>b.onclick=()=>{
 });
 document.querySelectorAll(".closeDistrict").forEach(b=>b.onclick=()=>dModal.classList.remove("show"));
 document.getElementById("districtWhatsapp").onclick=()=>{
-  const msg=`Merhaba, ${dName} çıkışlı nakliye talebi oluşturmak istiyorum.
+  const routeValue=document.getElementById("districtTo").value || "Detayları WhatsApp üzerinden paylaşacağım";
+  const msg=dName==="Diğer" ? `Merhaba, nakliye talebi oluşturmak istiyorum.
+
+Talep Kodu: ${leadId()}
+
+Güzergâh: ${routeValue}
+Açıklama: ${document.getElementById("districtNote").value || "Detayları WhatsApp üzerinden paylaşmak istiyorum."}` : `Merhaba, ${dName} çıkışlı nakliye talebi oluşturmak istiyorum.
 
 Talep Kodu: ${leadId()}
 
 Nereden: İzmir / ${dName}
-Nereye: ${document.getElementById("districtTo").value || "Detayları WhatsApp üzerinden paylaşacağım"}
+Nereye: ${routeValue}
 Açıklama: ${document.getElementById("districtNote").value || "Detayları WhatsApp üzerinden paylaşmak istiyorum."}`;
   dModal.classList.remove("show");
   openConsent(msg)
